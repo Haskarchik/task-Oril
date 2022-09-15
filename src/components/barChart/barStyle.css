@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.container {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  position: relative;
+  width: 1170px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+.container .filter-buttons {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.filter-button {
+  padding: 5px 15px;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.chart {
+  margin-top: 50px;
+}
+
+.apexcharts-canvas {
+  margin: auto;
+}
+
+.revenue {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 132%;
+}
+
+.total {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 132%;
+  margin-bottom: 20px;
+}
+.total span {
+  display: flex;
+}
+
+.min-max-block {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  color: #5c5c5c;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 132%;
+}
+
+span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9c9c9c;
+}

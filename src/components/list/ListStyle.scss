@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.input {
+  border: 1px solid #e5e7eb;
+  width: 320px;
+  height: 40px;
+  padding-left: 45px;
+  border-radius: 8px;
+  position: relative;
+  background: #f9fafb;
+  font-size: 14px;
+  &::placeholder {
+    color: #cccfd4;
+  }
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 50px;
+  &::before {
+    content: url(/public/img/icons/search.png);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    z-index: 10;
+  }
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+}
+.main-row {
+  background: #f6f6f6;
+  align-items: center;
+}
+.main-info {
+  display: flex;
+  flex: 0 1 40%;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111827;
+}
+.date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b7280;
+}
+.main {
+  position: relative;
+  color: #6b7280;
+  &::after {
+    content: "";
+    background-image: url(../../../public/img/icons/triangle_Png.png);
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    right: -10px;
+  }
+}
+
+.name.main {
+  cursor: pointer;
+}
+.date.main {
+  cursor: pointer;
+}
+.status.main {
+  font-size: 14px;
+  cursor: pointer;
+}
+.main-info-row {
+  display: flex;
+  flex: 0 1 37%;
+  justify-content: space-between;
+}
+.active {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5d5fef;
+}
+.disable {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ef5da8;
+}
+.table-row {
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-top: 1px solid #6B7280;
+  display: flex;
+  justify-content: space-between;
+}
+.main-row{
+  border-top: 0px ;
+
+}
+
+.table-row:hover {
+  background: #f6f6f6;
+}
