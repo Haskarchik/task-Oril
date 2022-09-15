@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<List />} />
-          <Route path="/chart/:id" element={<ChartPage  ></ChartPage>} />
+          <Route path="/chart/:id" element={<ChartPage/>} />
         </Routes>
       </BrowserRouter>
     </div>

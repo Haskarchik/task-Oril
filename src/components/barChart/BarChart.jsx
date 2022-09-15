@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Chart from "react-apexcharts";
-import { Title } from "chart.js";
 
 const BarChart = (props) => {
   const [userDatas, setuserDatas] = useState();
